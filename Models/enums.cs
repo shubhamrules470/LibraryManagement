@@ -24,4 +24,11 @@ namespace LibraryManagement.Models
         Active = 0,
         Blocked
     }
+
+    public enum Gender
+    {
+        Male = 0,
+        Female,
+        NonBinary
+    }
 }
